@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -8,216 +8,130 @@
       src="https://kit.fontawesome.com/c85bf6931e.js"
       crossorigin="anonymous"
     ></script>
-    <title>coffie tabele</title>
+    <title>Coffee Table</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div
-      class="bg-[url(https://i.postimg.cc/Y0wgdsZw/New-Project.png)] h-[750px] bg-cover text-white"
-    >
-      <header class="text-white flex justify-between">
-        <div class="p-[20px] font-bold text-[30px]">Coffee Table</div>
-        <div class="pt-[30px] w-[400px] flex justify-between mr-[50px]">
-          <a href="" class="hover:text-[#FF6347]">Home</a>
-          <a
-            href="#services"
-            class="hover:text-[#FF6347] "
-            
-            >Services</a
-          >
-          <a href="#menu" class="hover:text-[#FF6347]" 
-            >Menu</a
-          >
+  <body class="font-sans">
+    <!-- Hero Section -->
+    <div class="bg-[url('https://i.postimg.cc/Y0wgdsZw/New-Project.png')] bg-cover bg-center h-screen text-white">
+      <header class="flex justify-between items-center px-6 py-4 bg-black/40">
+        <div class="text-2xl md:text-3xl font-bold">Coffee Table</div>
+        <nav class="hidden md:flex space-x-6 text-sm md:text-base">
+          <a href="#" class="hover:text-[#FF6347]">Home</a>
+          <a href="#services" class="hover:text-[#FF6347]">Services</a>
+          <a href="#menu" class="hover:text-[#FF6347]">Menu</a>
           <a href="#about" class="hover:text-[#FF6347]">About</a>
           <a href="#contactus" class="hover:text-[#FF6347]">Contact Us</a>
-          <i class="fa-solid fa-bars mt-[5px]" style="color: #ffffff"></i>
+        </nav>
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars"></i>
         </div>
       </header>
-      <div
-        class="ml-[90px] mt-[150px] text-[70px] text-[#FFD700] italic font-bold"
-      >
-        Love at First Sip
+      <div class="flex flex-col justify-center h-[80%] px-6 md:px-24">
+        <h1 class="text-4xl md:text-6xl text-[#FFD700] italic font-bold">Love at First Sip</h1>
+        <p class="text-lg md:text-2xl italic mt-4">Making Mornings Better</p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-4">
+          <button class="text-lg border border-white w-48 rounded-full bg-[#FF6347] hover:bg-transparent hover:text-[#FF6347] py-2">Book Table</button>
+          <button class="text-lg border border-white w-48 rounded-full bg-white text-black hover:bg-transparent hover:text-white py-2">Shop</button>
+        </div>
       </div>
-      <div class="ml-[90px] text-[30px] italic text-[#FFFFFF]">
-        Making Mornings Better
-      </div>
-      <button
-        class="ml-[90px] text-[25px] border-[1px] border-[white] w-[200px] rounded-[25px] bg-[#FF6347] hover:bg-transparent hover:text-[#FF6347] mt-[50px]"
-      >
-        Book Table
-      </button>
-      <button
-        class="text-[25px] border-[1px] border-[white] w-[200px] rounded-[25px] bg-white text-[black] hover:bg-transparent hover:text-white"
-      >
-        Shop
-      </button>
     </div>
-    <div class="flex justify-between bg-[#E0E0E0] text-[#333]">
-      <div class="mt-[100px] ml-[80px] text-[80px] font-bold">
+
+    <!-- Our Work Section -->
+    <div class="flex flex-col lg:flex-row justify-between bg-[#E0E0E0] text-[#333] p-6 md:p-16">
+      <div class="text-4xl md:text-6xl font-bold mb-10 lg:mb-0">
         <div class="text-[#FF6347]">Your Choice</div>
         <div>Our Work</div>
-        <button
-          class="text-[25px] w-[190px] border-[1px] border-white rounded-[20px] bg-[#FF6347] hover:bg-[#FF4500] text-white"
-        >
-          Order Now
-        </button>
+        <button class="mt-6 text-lg w-48 border border-white rounded-full bg-[#FF6347] hover:bg-[#FF4500] text-white py-2">Order Now</button>
       </div>
-      <img
-        src="https://i.postimg.cc/8Pq8Z8mY/freepik-export-20240616070341lv-C2-removebg-preview.png"
-        alt=""
-        class="h-[500px] mt-[50px] mr-[50px]"
-      />
-      <div>
-        <img
-          src="https://i.postimg.cc/W3Tdm3vr/brown-drink-falling-ice-removebg-preview.png"
-          alt=""
-          class="h-[600px] mt-[0px] mr-[5px]"
-        />
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+        <img src="https://i.postimg.cc/8Pq8Z8mY/freepik-export-20240616070341lv-C2-removebg-preview.png" alt="" class="h-60 md:h-80" />
+        <img src="https://i.postimg.cc/W3Tdm3vr/brown-drink-falling-ice-removebg-preview.png" alt="" class="h-60 md:h-96" />
       </div>
     </div>
 
-    <div
-      class="bg-[url(https://i.postimg.cc/gJbWMCys/jjskk.png)] bg-cover h-[100vh]" id="menu"
-    >
-      <div class="text-[#FF6347] text-[40px] pt-[100px] ml-[150px] font-bold">
-        Menu Bar
-      </div>
-      <div
-        class="border-[1px] h-[70vh] w-[80%] ml-[100px] p-[60px] rounded-[5px] text-white text-[30px] flex justify-between bg-[rgba(0,0,0,0.6)]"
-      >
+    <!-- Menu Section -->
+    <div class="bg-[url('https://i.postimg.cc/gJbWMCys/jjskk.png')] bg-cover py-20" id="menu">
+      <h2 class="text-[#FF6347] text-3xl md:text-4xl font-bold text-center mb-10">Menu Bar</h2>
+      <div class="bg-black bg-opacity-60 text-white max-w-6xl mx-auto rounded p-6 grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
         <div>
-          <div class="text-[#FFD700]">Food Items</div>
-          <div>Chola Samosa ........................ $25</div>
-          <div>Simple Samosa .........................$20</div>
-          <div>Patiz ............................................$20</div>
-          <div>Pav Bhaji ....................................$55</div>
-          <div>Rasmalai ...................................$5</div>
-          <div>Dosa ...........................................$55</div>
-          <div>Daal Makhni ............................$55</div>
-          <div>Sambar .......................................$55</div>
-          <div>Chola Bhatura .........................$55</div>
+          <h3 class="text-[#FFD700] mb-4 text-2xl">Food Items</h3>
+          <p>Chola Samosa .................... $25</p>
+          <p>Simple Samosa ................... $20</p>
+          <p>Patiz .................................... $20</p>
+          <p>Pav Bhaji ............................ $55</p>
+          <p>Rasmalai .............................. $5</p>
+          <p>Dosa .................................... $55</p>
+          <p>Daal Makhni ...................... $55</p>
+          <p>Sambar ................................ $55</p>
+          <p>Chola Bhatura ................... $55</p>
         </div>
         <div>
-          <div class="text-[#FFD700]">Drink Items</div>
-          <div>Cold Drink ................................. $25</div>
-          <div>Hot Coffee ..................................$20</div>
-          <div>Cold Coffee ................................$20</div>
-          <div>Banana Shake ............................$55</div>
-          <div>Lassi ............................................$85</div>
-          <div>Chocolate Drink ..........................$65</div>
-          <div>Mango Shake ............................$58</div>
-          <div>Wine .......................................$555</div>
-          <div>Your Wish Drink .........................$575</div>
+          <h3 class="text-[#FFD700] mb-4 text-2xl">Drink Items</h3>
+          <p>Cold Drink .......................... $25</p>
+          <p>Hot Coffee ......................... $20</p>
+          <p>Cold Coffee ....................... $20</p>
+          <p>Banana Shake .................... $55</p>
+          <p>Lassi ..................................... $85</p>
+          <p>Chocolate Drink ............... $65</p>
+          <p>Mango Shake .................... $58</p>
+          <p>Wine .................................. $555</p>
+          <p>Your Wish Drink ................ $575</p>
         </div>
       </div>
     </div>
 
-    <div class="text-[50px] pl-[50px] bg-[#333] text-white">
-      <div  id="services" class="py-[30px]">Services</div>
-      <div class="flex h-[100vh] mt-[90px] space-x-[100px]">
-        <div
-          class="border-[1px] w-[600px] rounded-[9px] border-[black] p-[20px] h-[350px] bg-[#FF6347] hover:bg-[#FF4500] text-white"
-        >
-          <div class="text-[red] text-[30px]">Buy Products</div>
-          <div class="text-[20px]">
-            Coffee table cafe provides you Products that we use in our meals.
-            You can buy these products to ensure our products' quality.
-          </div>
-          <img
-            class="h-[200px]"
-            src="https://i.postimg.cc/1tBthR3M/Baker-serving-delicious-bread-removebg-preview.png"
-            alt=""
-          />
+    <!-- Services Section -->
+    <div class="bg-[#333] text-white py-16 px-4" id="services">
+      <h2 class="text-3xl md:text-5xl mb-12">Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <!-- Service Card -->
+        <div class="bg-[#FF6347] hover:bg-[#FF4500] rounded p-6">
+          <h3 class="text-red-600 text-xl mb-2">Buy Products</h3>
+          <p class="mb-4">Coffee table cafe provides you Products that we use in our meals. You can buy these products to ensure our products' quality.</p>
+          <img src="https://i.postimg.cc/1tBthR3M/Baker-serving-delicious-bread-removebg-preview.png" class="h-40" />
         </div>
 
-        <div
-          class="text-[30px] bg-[#FF6347] border-[1px] rounded-[9px] border-[black] w-[600px] p-[20px] h-[350px] hover:bg-[#FF4500] text-white"
-        >
-          <div class="text-[red]">Home Delivery</div>
-          <div class="text-[20px]">
-            Coffee table will deliver your order to your home for your
-            enjoyment. No need to go out in the summer.
-          </div>
-          <img
-            class="h-[200px] mt-[30px]"
-            src="https://i.postimg.cc/T2NS78c6/Pngtree-delivery-boy-with-food-8876808.png"
-            alt=""
-          />
+        <div class="bg-[#FF6347] hover:bg-[#FF4500] rounded p-6">
+          <h3 class="text-red-600 text-xl mb-2">Home Delivery</h3>
+          <p class="mb-4">Coffee table will deliver your order to your home. No need to go out in the summer.</p>
+          <img src="https://i.postimg.cc/T2NS78c6/Pngtree-delivery-boy-with-food-8876808.png" class="h-40" />
         </div>
-      </div>
-      <div class="flex space-x-[100px] mt-[-200px]">
-        <div
-          class="text-[30px] bg-[#FF6347] border-[1px] rounded-[9px] border-[black] w-[600px] p-[20px] h-[350px] hover:bg-[#FF4500] text-white"
-        >
-          <div class="text-[red]">Family Events</div>
-          <div class="text-[20px]">
-            Coffee table provides you with full area for your family, friends,
-            and other events so you can enjoy with coffee table.
-          </div>
-          <img
-            class="h-[200px] mt-[30px]"
-            src="https://i.postimg.cc/8CrK0stQ/Birthday-party-with-friends-removebg-preview.png"
-            alt=""
-          />
+
+        <div class="bg-[#FF6347] hover:bg-[#FF4500] rounded p-6">
+          <h3 class="text-red-600 text-xl mb-2">Family Events</h3>
+          <p class="mb-4">We provide full space for your family, friends, and events so you can enjoy your moments with us.</p>
+          <img src="https://i.postimg.cc/8CrK0stQ/Birthday-party-with-friends-removebg-preview.png" class="h-40" />
         </div>
-        <div
-          class="text-[30px] bg-[#FF6347] border-[1px] rounded-[9px] border-[black] w-[600px] p-[20px] h-[350px] hover:bg-[#FF4500] text-white"
-        >
-          <div class="text-[red]">Fresh and Healthy Food</div>
-          <div class="text-[20px]">
-            No more fear for your health regarding food. Coffee table will make
-            fresh & healthy food like your home.
-          </div>
-          <img
-            class="h-[250px] mt-[30px]"
-            src="https://i.postimg.cc/QtCtDGK3/Healthy-diet-removebg-preview.png"
-            alt=""
-          />
+
+        <div class="bg-[#FF6347] hover:bg-[#FF4500] rounded p-6">
+          <h3 class="text-red-600 text-xl mb-2">Fresh & Healthy Food</h3>
+          <p class="mb-4">No more worries about your health. Coffee Table ensures fresh and healthy food like homemade meals.</p>
+          <img src="https://i.postimg.cc/QtCtDGK3/Healthy-diet-removebg-preview.png" class="h-44" />
         </div>
       </div>
     </div>
-    <div class="bg-[#f5f5f5] text-[#333] p-[50px]">
-      <div class="text-[red] ml-[20px] mt-[20px] font-bold text-[40px]" id="about">
-        About Us
-      </div>
-      <p class="ml-[20px] text-[20px]">
-        Café Coffee Day, a part of Coffee Day Global Limited, is India’s
-        favourite hangout for coffee and conversations. Popularly known as CCD,
-        we strive to provide the best experience to our guests. Our coffees are
-        sourced from thousands of small coffee planters, who made us who we are
-        today and we're glad to be a part of their lives. We opened our first
-        cafe in 1996 at Brigade Road in Bangalore – the youth and the young at
-        heart immediately took to the cafe, and it continues to be one of the
-        most happening places in the city. CCD to the youth is a “hangout” spot
-        where they meet people, make conversations, and have a whole lot of fun
-        over steaming cups of great coffee. It's been an exciting journey since
-        then to becoming the largest organised retail cafe chain in the country.
+
+    <!-- About Section -->
+    <div class="bg-[#f5f5f5] text-[#333] px-6 py-12" id="about">
+      <h2 class="text-3xl md:text-4xl text-red-600 font-bold mb-4">About Us</h2>
+      <p class="text-lg max-w-4xl">
+        Café Coffee Day, a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations. Popularly known as CCD, we strive to provide the best experience to our guests. Our coffees are sourced from thousands of small coffee planters. We opened our first cafe in 1996 at Brigade Road in Bangalore – and it's been an exciting journey since then to becoming the largest organised retail cafe chain in the country.
       </p>
     </div>
-    <div class="bg-[#333] text-white p-[50px]" id="contactus">
-      <div class="text-[red] ml-[20px] text-[40px]">Contact Us</div>
-      <div class="ml-[20px] text-[20px]">
-        For more inquiry, contact us at our given number or mail us on our
-        official email.
-      </div>
-      <div class="ml-[20px] text-[20px]">+92 455454781</div>
-      <div class="ml-[20px] text-[20px]">tablecoffee45@gmail.com</div>
-      <div class="ml-[20px] text-[20px]">
-        Address: 176c Adarsh Nagar, Near Mohalla Road, 2nd Street, Ballabgarh
-        (Faridabad)
-      </div>
+
+    <!-- Contact Section -->
+    <div class="bg-[#333] text-white px-6 py-12" id="contactus">
+      <h2 class="text-3xl md:text-4xl text-red-500 font-bold mb-4">Contact Us</h2>
+      <p class="mb-2 text-lg">For more inquiries, contact us or mail us:</p>
+      <p class="text-lg">📞 +92 455454781</p>
+      <p class="text-lg">📧 tablecoffee45@gmail.com</p>
+      <p class="text-lg">📍 176c Adarsh Nagar, Near Mohalla Road, Ballabgarh (Faridabad)</p>
     </div>
-
   </body>
-</html> 
-
-
-
-
-
+</html>
